@@ -194,7 +194,6 @@ type alias Log =
     { address : Address
     , data : String
     , topics : List Hex
-    , removed : Bool
     , logIndex : Int
     , transactionIndex : Int
     , transactionHash : TxHash
